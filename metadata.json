@@ -1,0 +1,6 @@
+{
+  "name": "szip",
+  "description": "szip by screlia labs - Modern, profesyonel ve sade web tabanlı arşiv, dosya ve kod stüdyosu. 24+ arşiv formatı desteği (ZIP, 7Z, TAR, TGZ, GZ, BZ2, XZ, ZST, LZ4, RAR, CBZ, CBR, CBT, CB7, DMG, ISO, WIM, JAR, APK, IPA, DEB, RPM, CAB, APPX), dahili Notepad++ (NPP) kod editörü, EXIF/GPS & sistem metadata temizleyicisi, AES-256 şifreleme ve anlık önizleme motoru.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

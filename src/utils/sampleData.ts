@@ -1,0 +1,48 @@
+import { PresetProfile } from '../types';
+
+export const PRESET_PROFILES: PresetProfile[] = [
+  {
+    id: 'preset-fast',
+    title: 'Ultra Hızlı (Store / Deflate 1)',
+    subtitle: 'Sıfır bekleme, anında paketleme',
+    icon: 'Zap',
+    format: 'zip',
+    level: 1,
+    excludeMacJunk: true,
+    description: 'Büyük video veya medya dosyalarını hiç beklemeden anında tek bir arşivde toplar.',
+    badge: 'En Hızlı',
+  },
+  {
+    id: 'preset-balanced',
+    title: 'Dengeli Standart (Deflate 6)',
+    subtitle: 'En popüler, mükemmel hız/boyut oranı',
+    icon: 'SlidersHorizontal',
+    format: 'zip',
+    level: 6,
+    excludeMacJunk: true,
+    description: 'Tüm işletim sistemleri ile %100 uyumlu optimum sıkıştırma seviyesi.',
+    badge: 'Önerilen',
+  },
+  {
+    id: 'preset-max',
+    title: 'Maksimum Sıkıştırma (Deflate 9)',
+    subtitle: 'Minimum dosya boyutu, derin analiz',
+    icon: 'Minimize2',
+    format: 'zip',
+    level: 9,
+    excludeMacJunk: true,
+    description: 'Kod, metin, resim ve belgelerde en yüksek oranda yer tasarrufu sağlar.',
+    badge: 'En Küçük Boyut',
+  },
+  {
+    id: 'preset-clean',
+    title: 'Temiz & Gizli Sistem Çöpsüz',
+    subtitle: '.DS_Store, Thumbs.db çöplerini ve metadata arındırır',
+    icon: 'Mail',
+    format: 'zip',
+    level: 6,
+    excludeMacJunk: true,
+    description: 'Farklı platformlar arası paylaşım için temiz ve hafif arşiv üretir.',
+    badge: 'Hijyenik',
+  },
+];
